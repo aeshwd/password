@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: black;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 10px white;
+}
+
+.head h2{
+    font-size: 1.6rem;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+input{
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    color: red;
+    font-size: 1rem;
+    height: 30px;
+    width: 100%;
+
+}
+
+.generate{
+    font-size: 1rem;
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.copy{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
